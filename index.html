@@ -3,209 +3,144 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Smitha George — Corporate Trainer, Technology Consultant, Microsoft Certified Professional and Founder of Techiya Solutions. 27+ years of IT industry experience.">
+  <meta name="description" content="Smitha George — Founder, Techiya Solutions, Technology Consultant and Corporate Trainer. Microsoft Certified Professional with 27+ years of technology experience.">
   <meta name="author" content="Smitha George">
-  <title>Smitha George | Corporate Trainer & Technology Consultant</title>
+  <title>Smitha George | Technology Consultant & Corporate Trainer</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a href="#home" class="brand">Smitha<span>George</span><small>.com</small></a>
-      <button class="menu-toggle" aria-label="Open navigation">☰</button>
-      <nav class="nav">
+      <a href="#home" class="brand" aria-label="Smitha George home"><span class="brand-mark">S<span>G</span></span><span class="brand-name">Smitha George</span></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
         <a href="#expertise">Expertise</a>
-        <a href="#experience">Experience</a>
+        <a href="#training">Training</a>
         <a href="#techiya">Techiya Solutions</a>
-        <a href="#contact" class="nav-cta">Connect</a>
+        <a href="#resources">Resources</a>
+        <a href="#contact">Contact</a>
+        <a href="mailto:hello@smithageorge.com" class="nav-cta">✉&nbsp; Get in Touch</a>
       </nav>
     </div>
   </header>
 
   <main>
     <section id="home" class="hero">
-      <div class="hero-grid container">
+      <div class="hero-image"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
         <div class="hero-copy">
-          <div class="eyebrow">MICROSOFT CERTIFIED PROFESSIONAL · TECHNOLOGY CONSULTANT · FOUNDER</div>
-          <h1>Turning <span>technology</span> into capability.</h1>
+          <div class="eyebrow">TECHNOLOGY · BUSINESS · PEOPLE · POSSIBILITIES</div>
+          <h1>Smitha <span>George</span></h1>
           <p class="hero-title">Founder, Techiya Solutions | Technology Consultant &amp; Corporate Trainer | Microsoft Certified Professional | Microsoft Certified Technology Specialist – SQL Server &amp; Business Intelligence | 27+ Years of Technology</p>
-          <p class="hero-text">27+ Years of Technology. <strong>Knowledge That Empowers. Expertise That Delivers.</strong> Helping individuals and organizations turn technology into capability through consulting, training and practical solutions.</p>
+          <div class="gold-rule"></div>
+          <p class="hero-tagline">Turning technology into capability.</p>
+          <p class="hero-text">Helping individuals and organizations build knowledge, solve real challenges and create lasting value through technology, training and practical solutions.</p>
           <div class="hero-actions">
-            <a href="#about" class="btn btn-primary">Discover My Journey <span>→</span></a>
-            <a href="#contact" class="btn btn-secondary">Work With Me</a>
-          </div>
-          <div class="credentials">
-            <div><strong>27+</strong><span>Years in IT</span></div>
-            <div><strong>MCP</strong><span>Microsoft Certified Professional</span></div>
-            <div><strong>MCTS</strong><span>SQL Server · Business Intelligence</span></div>
-          </div>
-        </div>
-        <div class="hero-card">
-          <div class="portrait-frame">
-            <img src="assets/smitha-george-linkedin.jpg" alt="Smitha George — Corporate Trainer and Technology Consultant" class="portrait-image">
-            <div class="portrait-caption">
-              <strong>Smitha George</strong>
-              <span>Trainer · Consultant · Founder</span>
-            </div>
-          </div>
-          <div class="floating-card">
-            <span class="dot"></span>
-            <div><strong>27+ years</strong><br><span>of technology experience</span></div>
+            <a href="#about" class="btn btn-primary">♙&nbsp; Know More About Me <span>→</span></a>
+            <a href="#techiya" class="btn btn-outline">◉&nbsp; Explore Techiya Solutions <span>→</span></a>
           </div>
         </div>
       </div>
     </section>
 
+    <section class="service-strip" aria-label="Techiya Solutions capabilities">
+      <div class="container service-grid">
+        <a href="#expertise" class="service-item"><span class="service-icon">⚙</span><span><strong>Technology</strong><small>Practical technology solutions that create real value.</small></span></a>
+        <a href="#techiya" class="service-item"><span class="service-icon">↗</span><span><strong>Business</strong><small>Solutions to help organizations grow and operate smarter.</small></span></a>
+        <a href="#techiya" class="service-item"><span class="service-icon">▣</span><span><strong>Corporate</strong><small>Corporate solutions for modern business needs.</small></span></a>
+        <a href="#techiya" class="service-item"><span class="service-icon">✈</span><span><strong>Travel</strong><small>Travel solutions to make business and personal travel easier.</small></span></a>
+      </div>
+    </section>
+
     <section id="about" class="section about">
-      <div class="container two-col">
-        <div>
-          <p class="section-label">ABOUT SMITHA</p>
-          <h2>Experience that teaches. Expertise that delivers.</h2>
+      <div class="container about-layout">
+        <div class="about-intro">
+          <p class="section-label">ABOUT SMITHA GEORGE</p>
+          <h2>27+ Years of Technology.<br>Knowledge That Empowers.<br>Expertise That Delivers.</h2>
+          <div class="gold-rule"></div>
+          <p>I am a Technology Consultant, Corporate Trainer and Microsoft technology specialist with over 27 years of experience in SQL Server, Business Intelligence and Microsoft technologies. I am passionate about helping individuals and organizations use technology effectively to solve real challenges, build capability and create lasting impact.</p>
+          <a href="#experience" class="btn btn-gold">Read More About Me <span>→</span></a>
         </div>
-        <div class="about-copy">
-          <p>With more than 27 years in the IT industry, Smitha George brings together deep technical expertise, hands-on consulting experience and a passion for developing technology professionals.</p>
-          <p>Her career has included extensive work with Microsoft technologies, enterprise databases, performance tuning, administration and development, as well as technical training for professionals pursuing real-world skills and Microsoft certifications.</p>
-          <p>Today, Smitha is the <strong>Founder of Techiya Solutions</strong>, a solutions-focused organization bringing together <strong>technology, business, corporate and travel solutions</strong> under one trusted partner. The goal is simple: understand the requirement, bring the right capabilities together and deliver solutions that create value.</p>
+        <div class="about-stats">
+          <div class="stat-card"><span class="stat-icon">♙</span><strong>27+</strong><small>Years of Experience</small></div>
+          <div class="stat-card"><span class="stat-icon">◉</span><strong>Microsoft</strong><small>Certified Professional</small></div>
+          <div class="stat-card"><span class="stat-icon">◫</span><strong>SQL Server</strong><small>Expertise</small></div>
+          <div class="stat-card"><span class="stat-icon">▤</span><strong>Corporate<br>Training</strong><small>Workshops &amp; Boot Camps</small></div>
         </div>
+        <aside class="techiya-card" id="techiya">
+          <p class="section-label">TECHIYA SOLUTIONS</p>
+          <div class="techiya-wordmark">Techiya</div>
+          <p class="techiya-tagline">Solutions That Move Business Forward.</p>
+          <div class="gold-rule"></div>
+          <p>Techiya Solutions brings together technology, business, corporate and travel solutions to help you work smarter, create value and grow with confidence.</p>
+          <p class="techiya-quote">We don't just provide services. We understand the requirement, bring the right capabilities together and deliver solutions that create value.</p>
+          <div class="address"><strong>● &nbsp; Techiya Solutions</strong><span>Level 10, M3, Parcel 2 Block Acacia</span><span>Embassy Manyata Business Park</span><span>Nagavara, Bengaluru, Karnataka 560045</span></div>
+          <a href="#contact" class="btn btn-card">Visit Techiya Solutions <span>→</span></a>
+        </aside>
       </div>
     </section>
 
     <section id="expertise" class="section expertise">
       <div class="container">
         <div class="section-heading">
-          <p class="section-label">CORE EXPERTISE</p>
+          <p class="section-label">EXPERTISE</p>
           <h2>Deep technical knowledge. Practical perspective.</h2>
-          <p>Specialized experience across Microsoft data technologies, development, administration, performance and professional training.</p>
+          <p>Technology expertise that connects technical capability with real business needs.</p>
         </div>
         <div class="expertise-grid">
-          <article class="expertise-card featured">
-            <div class="icon">01</div>
-            <h3>SQL Server</h3>
-            <p>Extensive expertise across the SQL Server ecosystem, from administration and development to enterprise performance tuning.</p>
-            <div class="tags"><span>SQL Server 7.0</span><span>2000</span><span>2005</span><span>2008</span><span>2008 R2</span><span>2012</span><span>2014</span><span>2019</span></div>
-          </article>
-          <article class="expertise-card">
-            <div class="icon">02</div>
-            <h3>Business Intelligence</h3>
-            <p>Microsoft Certified Technology Specialist in SQL Server 2008 – Business Intelligence, with experience across enterprise data platforms.</p>
-            <div class="tags"><span>IS</span><span>AS</span><span>RS</span><span>BI</span></div>
-          </article>
-          <article class="expertise-card">
-            <div class="icon">03</div>
-            <h3>Performance Tuning</h3>
-            <p>Strong hands-on experience identifying bottlenecks, improving database performance and optimizing production environments.</p>
-            <div class="tags"><span>Optimization</span><span>Diagnostics</span><span>Performance</span></div>
-          </article>
-          <article class="expertise-card">
-            <div class="icon">04</div>
-            <h3>.NET & XML</h3>
-            <p>Proficient in the .NET Framework and XML, supporting application development and integration requirements.</p>
-            <div class="tags"><span>.NET Framework</span><span>XML</span><span>Development</span></div>
-          </article>
-          <article class="expertise-card">
-            <div class="icon">05</div>
-            <h3>Technical Training</h3>
-            <p>Experienced technical trainer for Microsoft India, delivering SQL Server and Visual Studio courses and workshops.</p>
-            <div class="tags"><span>Instructor-led</span><span>Workshops</span><span>Corporate Training</span></div>
-          </article>
-          <article class="expertise-card">
-            <div class="icon">06</div>
-            <h3>Certification Boot Camps</h3>
-            <p>Conducted intensive boot camps designed to help technology professionals prepare for Microsoft certification.</p>
-            <div class="tags"><span>Microsoft</span><span>Certification</span><span>Boot Camps</span></div>
-          </article>
+          <article class="expertise-card featured"><div class="card-number">01</div><h3>SQL Server &amp; Data</h3><p>Deep experience in database administration, development, data platforms and performance optimization.</p><div class="tags"><span>Administration</span><span>Development</span><span>Performance</span></div></article>
+          <article class="expertise-card"><div class="card-number">02</div><h3>Business Intelligence</h3><p>Business intelligence, enterprise reporting and Microsoft data solutions that turn information into insight.</p><div class="tags"><span>BI</span><span>Reporting</span><span>Data</span></div></article>
+          <article class="expertise-card"><div class="card-number">03</div><h3>Microsoft Technologies</h3><p>Practical consulting and training across Microsoft technologies, development platforms and modern workplace solutions.</p><div class="tags"><span>Microsoft</span><span>Azure</span><span>Microsoft 365</span></div></article>
+          <article class="expertise-card"><div class="card-number">04</div><h3>AI &amp; Automation</h3><p>Helping organizations explore AI, Copilot and automation opportunities to improve productivity and business processes.</p><div class="tags"><span>AI</span><span>Copilot</span><span>Automation</span></div></article>
+          <article class="expertise-card"><div class="card-number">05</div><h3>Technology Consulting</h3><p>Technology strategy, solution planning and practical guidance aligned with organizational goals.</p><div class="tags"><span>Strategy</span><span>Consulting</span><span>Transformation</span></div></article>
+          <article class="expertise-card"><div class="card-number">06</div><h3>Corporate Training</h3><p>Professional technology training, workshops and certification-focused learning designed around practical outcomes.</p><div class="tags"><span>Training</span><span>Workshops</span><span>Boot Camps</span></div></article>
         </div>
       </div>
     </section>
 
     <section id="experience" class="section experience">
-      <div class="container">
-        <div class="section-heading narrow">
-          <p class="section-label">PROFESSIONAL EXPERIENCE</p>
-          <h2>A career built around technology and people.</h2>
-        </div>
+      <div class="container two-col">
+        <div><p class="section-label">PROFESSIONAL EXPERIENCE</p><h2>A career built around technology and people.</h2></div>
         <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-mark">27+</div>
-            <div><h3>IT Industry Experience</h3><p>More than 27 years of professional experience spanning technology, consulting, administration, development, performance tuning and technical education.</p></div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-mark">MS</div>
-            <div><h3>Microsoft India · Technical Trainer</h3><p>Delivered Microsoft SQL Server and Visual Studio courses and workshops, helping professionals strengthen their technical capabilities.</p></div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-mark">BC</div>
-            <div><h3>Microsoft Certification Boot Camps</h3><p>Conducted focused boot camps for professionals preparing for Microsoft certification pathways.</p></div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-mark">TS</div>
-            <div><h3>Founder · Techiya Solutions</h3><p>Building a technology-focused training and consulting practice with an emphasis on practical skills, professional growth and business outcomes.</p></div>
-          </div>
+          <div class="timeline-item"><div class="timeline-mark">27+</div><div><h3>IT Industry Experience</h3><p>More than 27 years spanning technology, consulting, administration, development, performance tuning and technical education.</p></div></div>
+          <div class="timeline-item"><div class="timeline-mark">MS</div><div><h3>Microsoft India · Technical Trainer</h3><p>Delivered Microsoft technology courses and workshops, helping professionals strengthen practical technical capabilities.</p></div></div>
+          <div class="timeline-item"><div class="timeline-mark">BC</div><div><h3>Microsoft Certification Boot Camps</h3><p>Conducted focused boot camps to help technology professionals prepare for Microsoft certification pathways.</p></div></div>
+          <div class="timeline-item"><div class="timeline-mark">TS</div><div><h3>Founder · Techiya Solutions</h3><p>Building a solutions-focused organization connecting technology, business, corporate and travel capabilities.</p></div></div>
         </div>
       </div>
     </section>
 
-    <section class="section credentials-section">
-      <div class="container">
-        <div class="credentials-banner">
-          <div>
-            <p class="section-label">MICROSOFT CREDENTIALS</p>
-            <h2>Certified. Experienced. Industry-focused.</h2>
-          </div>
-          <div class="credential-list">
-            <div class="credential"><strong>MCP</strong><span>Microsoft Certified Professional</span></div>
-            <div class="credential"><strong>MCTS</strong><span>SQL Server 2008 — Business Intelligence</span></div>
-          </div>
+    <section id="training" class="section credentials-section">
+      <div class="container credentials-banner">
+        <div><p class="section-label">MICROSOFT CREDENTIALS &amp; TRAINING</p><h2>Certified. Experienced. Industry-focused.</h2></div>
+        <div class="credential-list">
+          <div class="credential"><strong>MCP</strong><span>Microsoft Certified Professional</span></div>
+          <div class="credential"><strong>MCTS</strong><span>Microsoft Certified Technology Specialist – SQL Server &amp; Business Intelligence</span></div>
+          <div class="credential"><strong>TRAINER</strong><span>Microsoft India courses, workshops and certification boot camps</span></div>
         </div>
       </div>
     </section>
 
-    <section id="techiya" class="section techiya">
-      <div class="container techiya-grid">
-        <div class="techiya-logo"><span>TS</span></div>
-        <div>
-          <p class="section-label">FOUNDED BY SMITHA GEORGE</p>
-          <h2>Techiya Solutions</h2>
-          <p><strong>Solutions That Move Business Forward.</strong></p>
-          <p>Techiya Solutions brings multiple business capabilities together under one organization, giving clients access to technology, business, corporate and travel solutions through a single trusted partner.</p>
-          <p>We don't just provide services. We understand the requirement, bring the right capabilities together and deliver solutions that create value.</p>
-          <div class="techiya-capabilities">
-            <span>Technology</span><span>Business</span><span>Corporate</span><span>Travel</span>
-          </div>
-          <div class="techiya-address">
-            <strong>Techiya Solutions</strong>
-            <span>Level 10, M3, Parcel 2 Block Acacia</span>
-            <span>Embassy Manyata Business Park</span>
-            <span>Nagavara, Bengaluru, Karnataka 560045</span>
-          </div>
-          <a href="#contact" class="text-link">Explore collaboration opportunities <span>→</span></a>
-        </div>
-      </div>
+    <section id="resources" class="section resources">
+      <div class="container resource-box"><div><p class="section-label">RESOURCES</p><h2>Knowledge that empowers.</h2><p>Insights, practical guidance and technology perspectives from 27+ years of experience.</p></div><a href="#contact" class="btn btn-gold">Start a Conversation <span>→</span></a></div>
     </section>
 
     <section id="contact" class="section contact">
       <div class="container contact-box">
-        <div>
-          <p class="section-label">LET'S CONNECT</p>
-          <h2>Looking for training, consulting or technology expertise?</h2>
-          <p>Whether you are looking for technology consulting, corporate training, business solutions or a trusted partner for corporate and travel requirements, let's start a conversation.</p>
-        <div class="contact-address"><strong>Techiya Solutions</strong><span>Level 10, M3, Parcel 2 Block Acacia · Embassy Manyata Business Park</span><span>Nagavara, Bengaluru, Karnataka 560045</span></div>
-        </div>
+        <div><p class="section-label">LET'S CONNECT</p><h2>Looking for training, consulting or technology expertise?</h2><p>Whether you are looking for technology consulting, corporate training, business solutions or a trusted partner for corporate and travel requirements, let's start a conversation.</p><div class="contact-address"><strong>Techiya Solutions</strong><span>Level 10, M3, Parcel 2 Block Acacia · Embassy Manyata Business Park</span><span>Nagavara, Bengaluru, Karnataka 560045</span></div></div>
         <a href="mailto:hello@smithageorge.com" class="btn btn-light">Get in Touch <span>→</span></a>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="container footer-wrap">
-      <div class="brand">Smitha<span>George</span><small>.com</small></div>
-      <p>© 2026 Smitha George. All rights reserved.</p>
-      <p>Founder, Techiya Solutions · Technology Consultant · Corporate Trainer</p>
-    </div>
+    <div class="container footer-wrap"><div class="brand"><span class="brand-mark">S<span>G</span></span><span class="brand-name">Smitha George</span></div><p>© 2026 Smitha George. All rights reserved.</p><p>Founder, Techiya Solutions · Technology Consultant · Corporate Trainer</p></div>
   </footer>
   <script src="script.js"></script>
 </body>
